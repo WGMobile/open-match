@@ -5,6 +5,7 @@
     "name": "om-frontendapi"
   },
   "spec": {
+    "type": "LoadBalancer",
     "selector": {
       "app": "openmatch",
       "component": "frontend"
