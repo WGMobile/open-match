@@ -24,11 +24,11 @@
     },
     "defaultImages": {
         "evaluator": {
-            "name": "gcr.io/matchmaker-dev-201405/openmatch-evaluator",
+            "name": "460465941927.dkr.ecr.eu-central-1.amazonaws.com/openmatch-evaluator",
             "tag": "dev"
         },
         "mmf": {
-            "name": "gcr.io/matchmaker-dev-201405/openmatch-mmf",
+            "name": "460465941927.dkr.ecr.eu-central-1.amazonaws.com/openmatch-mmf",
             "tag": "dev"
         }
     },
