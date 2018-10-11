@@ -5,6 +5,7 @@
     "name": "om-backendapi"
   },
   "spec": {
+    "type": "LoadBalancer",
     "selector": {
       "app": "openmatch",
       "component": "backend"

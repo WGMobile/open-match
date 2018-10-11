@@ -27,7 +27,7 @@
             "containers":[
                {
                   "name":"om-mmforc",
-                  "image":"gcr.io/matchmaker-dev-201405/openmatch-mmforc:dev",
+                  "image":"460465941927.dkr.ecr.eu-central-1.amazonaws.com/openmatch-mmforc:dev",
                   "imagePullPolicy":"Always",
                   "ports": [
                     {
@@ -52,7 +52,8 @@
                     }
                   ]
                }
-            ]
+            ],
+            "imagePullSecrets":[{"name":"aws-creds"}]
          }
       }
    }
