@@ -430,6 +430,11 @@ func generateJobSpec(jobName string, imageName string) *batchv1.Job {
 				},
 				Spec: apiv1.PodSpec{
 					RestartPolicy: "Never",
+					ImagePullSecrets: []apiv1.LocalObjectReference{
+						{
+							Name: "aws-creds",
+						},
+					},
 					Containers: []apiv1.Container{
 						{
 							// TODO: have these reflect mmf vs evaluator
