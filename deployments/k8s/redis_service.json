@@ -5,6 +5,7 @@
     "name": "redis-sentinel"
   },
   "spec": {
+    "type": "LoadBalancer",
     "selector": {
       "app": "mm",
       "tier": "storage"
