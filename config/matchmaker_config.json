@@ -29,7 +29,7 @@
         },
         "mmf": {
             "name": "460465941927.dkr.ecr.eu-central-1.amazonaws.com/openmatch-mmf",
-            "tag": "dev"
+            "tag": "wgm-0.1"
         }
     },
     "jsonkeys": {
